@@ -1,15 +1,22 @@
-.navbar ul{
+body{
+	margin: 0;
+}
+
+.navbar{
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-	background: #2196F3;
+	overflow: hidden;
+	background-color: #2196F3;
 	width: 100%;
 	position: fixed;
 	top: 0;
+	box-shadow: 0px 0px 8px #001a4d;
 }
 
-.navbar ul li{
-	display: inline-block;
+.navbar li{
+	float: left;
+	display: block;
 	padding: 9px;
 	background: #1E88E5;
 	font-size: 24px;
@@ -17,7 +24,7 @@
 	color: #ffffff;
 }
 
-.navbar ul li:hover{
+.navbar li:hover{
 	background-color: #0D47A1;
 }
 
@@ -25,44 +32,55 @@
 	background-color: #1565C0;
 }
 
-img{
+.backimg{
 	width: 100%;
 	height: 500px;
+	background-image: url("shell.jpeg");
+	background-size: 100% 100%;
 }
 
 .card{
 	margin: auto;
+	margin-top: 80px;
+	margin-bottom: 80px;
 	text-align: center;
 	width: 75%;
-	height: 1200px;
+	height: auto;
+	padding-bottom: 50px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
 	background-color: #e6e6e6;
+	box-shadow: 0px 3px 9px;
+	font: ubuntu;
 }
 
 .opener{
+	background-color: #ffffff;
+	/*margin-top: 80px;*/
 	text-align: center;
-	margin: auto;
-	width: 50%;
+	width: 100%;
 }
 
 .card div{
-	border: solid black;
+	/*border-bottom: solid black 1px;*/
 	display: inline-block;
+	box-shadow: 0px 2px 9px;
 }
-.Instructions{
+.abilities{
 	background-color: #ffffff;
-	font: arial;
+	margin-top: 10px;
 	display: inline-block;
-	width: 50%;
-	height: 400px;
+	width: 100%;
+	height: auto;
+	text-align: center;
+}
+.abilities ul{
+	list-style-type: none;
+	text-align: center;
 }
 
-.Ingredients{
-	background-color: #ffffff;
-	font: arial;
-	display: inline-block;
-	width: 50%;
-	height: 400px;
-}
+
 
 body{
 	background-color: #E8EAF6;
