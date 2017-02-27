@@ -1,45 +1,113 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<title>
-		Cameron McCullers
-	</title>
-	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="stylesheet.css">
-	<link rel="icon" href="hex.png">
-</head>
-<body>
+<html>
+  <head>
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+      <link rel="icon" href="hex.png">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta charset="utf-8">
+    <title>Cameron McCullers</title>
+  </head>
 
-<ul class="navbar">
-	<li id="current">Cameron McCullers</li>
-</ul>
+  <body>
+    <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+      <script src="js/init.js"></script>
 
-<div class="backimg"></div>
-
-<div class="card">
-
-	<div class="opener">
-	<h1>Cameron McCullers</h1>
-	<p>A hardworking student at the University of North Carolina, I am currently studying to be a software and operating systems developer. I am a junior working towards my Bachelor of Arts in Computer Science.</p>
-	</div>
-
-	
-
-	<div class="abilities">
-		<h2>I know the following coding languages:</h2>
-		<ul>
-			<li>C</li>
-			<li>Java</li>
-			<li>Python</li>
-			<li>HTML 5</li>
-			<li>CSS 3</li>
-			<li>Javascript</li>
-			<li>MIPS Assembly</li>
-		</ul>
-	</div>
+    <nav>
+      <div class="nav-wrapper cyan darken-2">
+        <!-- <div class="container"> -->
+        <a class="brand-logo">Cameron McCullers</a>
+        <a href="#" data-activates="mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li class="active"><a href="index.html">About</a></li>
+            <li><a href="projects.html">Previous Projects</a></li>
+            <li><a href="photography.html">Photography</a></li>
+          </ul>
+          <ul class="side-nav" id="mobile">
+            <li class="active"><a href="index.html">About</a></li>
+            <li><a href="projects.html">Previous Projects</a></li>
+            <li><a href="photography.html">Photography</a></li>
+          </ul>
+        <!-- </div> -->
+      </div>
+    </nav>
 
 
-	
-</div>
-</body>
+
+    <!-- <div class="divider"></div> -->
+
+      <div class="row">
+        <div class="container">
+
+        <div class="col s12 m8">
+          <div class="card hoverable">
+            <div class="card-image">
+                  <img src="beach.jpeg">
+                  <span class="card-title"><h3>Who am I?</h3></span>
+                </div>
+                <div class="card-content">
+                  <p>I am a Junior Computer Science major at the University of North Carolina at Chapel Hill. I am currently studying to obtain a Bachelor of Arts in CS.
+                  Currently, I am employed part-time as a Learning Assistant at UNC for COMP 116. I am well trained in many coding languages and emphasise clean and legibile code
+                in my work. In the Previous Projects tab you'll find several examples of coding projects I have previously done in my time at UNC. I also have a love for photography
+              and have displayed some of my favorite shots under the Photography tab. Thank you for visiting!</p>
+                </div>
+              </div>
+        </div>
+
+
+          <div class="col s12 m4">
+            <div class="card small cyan darken-2 hoverable">
+              <div class="card-content white-text">
+                <span class="card-title">Contact</span>
+                <p><b>You can contact me by phone at: </b>(919)631-2919</p>
+                <p><b>Email by: </b>cameross@live.unc.edu</p>
+                <p><b>Or these social media:</b></p>
+              </div>
+              <div class="center-align">
+                <a href="https://www.linkedin.com/in/cameron-mccullers-7b4227116/" class="waves-effect waves-light btn"><b>LinkedIn</b></a>
+                <a href="https://www.facebook.com/cameron.mccullers" class="waves-effect waves-light btn"><b>Facebook</b></a>
+                <a href="https://github.com/Taren-Ko" class="waves-effect waves-light btn"><b>Github</b></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s12 m4">
+            <div class="card hoverable">
+              <div class="card-image">
+                    <img src="keyboard.jpg">
+                    <span class="card-title">Coding Skills</span>
+                  </div>
+                  <div class="card-content">
+                    <ul class="collection">
+                      <li class="collection-item">C <span class="new badge" data-badge-caption="years">3</span></li>
+                      <li class="collection-item">Java <span class="new badge" data-badge-caption="years">3</span></li>
+                      <li class="collection-item">Python <span class="new badge" data-badge-caption="years">2</span></li>
+                      <li class="collection-item">Matlab <span class="new badge" data-badge-caption="years">3</span></li>
+                      <li class="collection-item">HTML5 <span class="new badge" data-badge-caption="years">4</span></li>
+                      <li class="collection-item">CSS <span class="new badge" data-badge-caption="years">4</span></li>
+                      <li class="collection-item">Javascript <span class="new badge" data-badge-caption="year">1</span></li>
+                      <li class="collection-item">Jqery <span class="new badge" data-badge-caption="year">1</span></li>
+                      <li class="collection-item">JSON <span class="new badge" data-badge-caption="year">1</span></li>
+                      <li class="collection-item">SQL <span class="new badge" data-badge-caption="year">1</span></li>
+                      <li class="collection-item">XML <span class="new badge" data-badge-caption="year">1</span></li>
+                      <li class="collection-item">Assembly/MIPS <span class="new badge" data-badge-caption="year">1</span></li>
+                      <li class="collection-item">Digital Logic and Design <span class="new badge" data-badge-caption="years">2</span></li>
+                      <li class="collection-item">Operating System Design <span class="new badge" data-badge-caption="year">1</span></li>
+                      <li class="collection-item">Data Structure Design <span class="new badge" data-badge-caption="year">1</span></li>
+                      <li class="collection-item">UI Design <span class="new badge" data-badge-caption="year">1</span></li>
+                    </ul>
+                  </div>
+                </div>
+          </div>
+
+
+        </div>
+      </div>
+
+
+
+
+  </body>
 </html>
