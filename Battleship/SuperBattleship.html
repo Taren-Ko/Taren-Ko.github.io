@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html> <head>
+<title>One CLI Player Super Battleship</title>
+<script
+src="http://www.cs.unc.edu/Courses/comp426-f16/jquery-3.1.0.js"></script>
+<script src="SBConstants.js"></script>
+<script src="SuperBattleship.js"></script>
+<script src="CLIPlayer.js"></script>
+<script src="DumbAI.js"></script>
+<script src="CLIOnePlayerSuperBattleship.js"></script>
+<link rel="stylesheet" type="text/css" href="CLIOnePlayerSuperBattleship.css">
+<link rel="icon" href="boat.png">
+</head>
+
+<body>
+<h1>SUPER BATTLESHIP</h1>
+<div id="map_panel">
+  <div id="map_view">
+
+  </div>
+</div>
+
+<div id="cli_panel">
+  <div id="p1_cli_panel">
+    <div><h2>Player 1</h2></div>
+    <h3>Click a tile to fire!</h3>
+    <!-- <div><input id="p1_cli_input"></div> -->
+    <div>
+    <select id="ships">
+      <option value="battleship">Battleship</option>
+      <option value="carrier">Carrier</option>
+      <option value="cruiser">Cruiser</option>
+      <option value="submarine">Submarine</option>
+      <option value="destroyer">Destroyer</option>
+    </select>
+    <button type="button" id="rcw">Rotate CW</button>
+    <button type="button" id="rccw">Rotate CCW</button>
+    <button type="button" id="fwd">Move Forward</button>
+    <button type="button" id="bwd">Move Backward</button>
+    <button type="button" id="info">Fleet Info</button>
+  </div>
+    <div id="p1_cli_output"></div>
+  </div>
+</div>
+
+</body> </html>
